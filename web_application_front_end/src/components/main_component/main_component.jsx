@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import LandingPage from "./pages/landing_page/landing_page";
-// import Signin from "./pages/signin_page/signin";
-// import Dashboard from "./pages/dashboard_page/dashboard";
+import Signin from "./pages/signin_page/signin";
+import Dashboard from "./pages/dashboard_page/dashboard";
 // import CreateAccount from "./pages/accounts_page/create_account";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Logout from "./pages/Logout_page/logout";
-// import Role from "./pages/role_page/role";
+import Role from "./pages/role_page/role";
 import { Modal } from "react-bootstrap";
 // import QuizResultPageList from "./pages/quiz_result_page_list/quiz_result_page";
 // import QuizResultPage from "./pages/quiz_result_page/quiz_result";
@@ -55,7 +55,7 @@ const MainComponent = () => {
       </Modal>
       <Router>
         <Switch>
-        {/*<Route path="/all-accounts">
+        {/* <Route path="/all-accounts">
              <AllAccounts />
           </Route>
         <Route path="/edit-account">
@@ -72,20 +72,20 @@ const MainComponent = () => {
           </Route>
           <Route path="/quiz-result-list">
             <QuizResultPageList />
-          </Route>
+          </Route> */}
           <Route path="/role">
             <Role />
           </Route>
-          <Route path="/logout">
+          {/* <Route path="/logout">
             <Logout />
-          </Route>
+          </Route> */}
           <Route path="/signin">
             <Signin handleModal={handleModal} />
           </Route>
           <Route path="/dashboard">
             <Dashboard handleModal={handleModal} />
           </Route>
-          <Route path="/account">
+          {/* <Route path="/account">
             <CreateAccount />
           </Route> */}
           <Route path="/">

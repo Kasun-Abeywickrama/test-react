@@ -1,0 +1,31 @@
+
+.page_content{
+    /* background: #eee; */
+    height: 100vh;
+}
+  
+.card_text {
+    font-size: 15px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #0062cc;
+    border-bottom: 2px solid #0062cc;
+  }
+  
+  .box_part {
+    background: #eee;
+    border-radius: 15px;
+    padding: 60px 10px;
+    margin: 30px 0px;
+  }
+  
+  .text {
+    margin: 20px 0px;
+  }
+  
+  .fa {
+    color: #4183d7;
+  }
+  

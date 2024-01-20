@@ -1,0 +1,16 @@
+.hero_image{
+    margin-top: 80px;
+    height: 420px;
+    background: url('../../../../assets/images/signin_hero_image.png') no-repeat center center;
+    background-size: cover;
+}
+
+.hero_form_wrapper{
+    margin-top: 60px;
+    /* background-color: red; */
+}
+
+.hero_form{
+    /* background-color: aquamarine; */
+    padding: 0 50px;
+}
