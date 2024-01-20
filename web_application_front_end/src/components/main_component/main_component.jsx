@@ -4,13 +4,13 @@ import Signin from "./pages/signin_page/signin";
 import Dashboard from "./pages/dashboard_page/dashboard";
 // import CreateAccount from "./pages/accounts_page/create_account";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import Logout from "./pages/Logout_page/logout";
+import Logout from "./pages/Logout_page/logout";
 import Role from "./pages/role_page/role";
 import { Modal } from "react-bootstrap";
 // import QuizResultPageList from "./pages/quiz_result_page_list/quiz_result_page";
 // import QuizResultPage from "./pages/quiz_result_page/quiz_result";
-// import AppointmentList from "./pages/appointment_list_page/appointment_list";
-// import AppointmentDetails from "./pages/appointment_list_page/appointment_details";
+import AppointmentList from "./pages/appointment_list_page/appointment_list";
+import AppointmentDetails from "./pages/appointment_list_page/appointment_details";
 // import EditAccount from "./pages/accounts_page/edit_account";
 // import AllAccounts from "./pages/accounts_page/all_accounts";
 
@@ -60,14 +60,14 @@ const MainComponent = () => {
           </Route>
         <Route path="/edit-account">
             <EditAccount />
-          </Route>
+          </Route> */}
         <Route path="/appointment-details">
             <AppointmentDetails />
           </Route>
           <Route path="/appointment-list">
             <AppointmentList />
           </Route>
-          <Route path="/quiz-result">
+          {/* <Route path="/quiz-result">
             <QuizResultPage />
           </Route>
           <Route path="/quiz-result-list">
@@ -76,9 +76,9 @@ const MainComponent = () => {
           <Route path="/role">
             <Role />
           </Route>
-          {/* <Route path="/logout">
+          <Route path="/logout">
             <Logout />
-          </Route> */}
+          </Route>
           <Route path="/signin">
             <Signin handleModal={handleModal} />
           </Route>
