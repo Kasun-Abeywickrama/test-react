@@ -1,9 +1,13 @@
 import React from "react";
+import "./App.css";
+// import Header from "./components/header/header";
+import MainComponent from "./components/main_component/main_component";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <React.Fragment>
+      <MainComponent />
+    </React.Fragment>
   );
 }
 
